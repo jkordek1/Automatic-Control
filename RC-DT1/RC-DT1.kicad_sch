@@ -523,7 +523,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PT1"
+	(text "DT1"
 		(exclude_from_sim no)
 		(at 137.16 67.31 0)
 		(effects
@@ -685,7 +685,7 @@
 			)
 		)
 		(instances
-			(project "RC-PT1"
+			(project "RC-DT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "H3")
 					(unit 1)
@@ -695,7 +695,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 77.47 90)
+		(at 137.16 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -706,17 +706,18 @@
 		(fields_autoplaced yes)
 		(uuid "187d1578-cbee-4014-830b-75a4dda176e8")
 		(property "Reference" "R1"
-			(at 123.19 73.66 90)
+			(at 139.7 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "R"
-			(at 123.19 73.66 90)
+			(at 133.35 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -727,7 +728,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 123.19 79.248 90)
+			(at 138.938 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -738,7 +739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 77.47 0)
+			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -749,7 +750,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 77.47 0)
+			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -766,7 +767,7 @@
 			(uuid "8e2e1e47-fdea-4dd9-877c-f6d7a5e683a2")
 		)
 		(instances
-			(project "RC-PT1"
+			(project "RC-DT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "R1")
 					(unit 1)
@@ -842,7 +843,7 @@
 			)
 		)
 		(instances
-			(project "RC-PT1"
+			(project "RC-DT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "H4")
 					(unit 1)
@@ -920,7 +921,7 @@
 			(uuid "acba9417-5885-4e83-bd81-65e682ddf8b2")
 		)
 		(instances
-			(project "RC-PT1"
+			(project "RC-DT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "TP2")
 					(unit 1)
@@ -999,7 +1000,7 @@
 			(uuid "d4c64fe0-f9b1-48fb-a21f-9e626eff9c2a")
 		)
 		(instances
-			(project "RC-PT1"
+			(project "RC-DT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "TP4")
 					(unit 1)
@@ -1078,7 +1079,7 @@
 			(uuid "3d8657ce-16bd-4f67-878f-5da9effe6a51")
 		)
 		(instances
-			(project "RC-PT1"
+			(project "RC-DT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "TP3")
 					(unit 1)
@@ -1154,7 +1155,7 @@
 			)
 		)
 		(instances
-			(project "RC-PT1"
+			(project "RC-DT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "H1")
 					(unit 1)
@@ -1232,7 +1233,7 @@
 			(uuid "89eb33c6-d0aa-41eb-9a26-3dfbc50f82ef")
 		)
 		(instances
-			(project "RC-PT1"
+			(project "RC-DT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "TP1")
 					(unit 1)
@@ -1308,7 +1309,7 @@
 			)
 		)
 		(instances
-			(project "RC-PT1"
+			(project "RC-DT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "H2")
 					(unit 1)
@@ -1318,7 +1319,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 86.36 0)
+		(at 123.19 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1329,18 +1330,17 @@
 		(fields_autoplaced yes)
 		(uuid "d297be3a-76ed-4218-8f09-ab7446474964")
 		(property "Reference" "C1"
-			(at 140.97 86.3599 0)
+			(at 123.19 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "C"
-			(at 140.97 87.6299 0)
+			(at 124.4599 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1352,7 +1352,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.0mm_P5.00mm"
-			(at 138.1252 90.17 0)
+			(at 127 76.5048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1363,7 +1363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 86.36 0)
+			(at 123.19 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1374,7 +1374,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 86.36 0)
+			(at 123.19 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1391,7 +1391,7 @@
 			(uuid "7c8fc62c-8959-439e-a754-87c4149519b0")
 		)
 		(instances
-			(project "RC-PT1"
+			(project "RC-DT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "C1")
 					(unit 1)
