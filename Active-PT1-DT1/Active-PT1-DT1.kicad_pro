@@ -503,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RC-PT1.kicad_pro",
+    "filename": "Active-PT1-DT1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -630,7 +630,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -658,18 +658,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "RC-PT1.kicad_sch",
-        "name": "RC-PT1",
+        "filename": "Active-PT1-DT1.kicad_sch",
+        "name": "Active-PT1-DT1",
         "uuid": "516af16e-4df2-44b9-98db-abada191c38c"
       }
     ],
-    "used_designators": "R1,J1-4,C1,TP1-8,H1-4",
+    "used_designators": "R1-7,J1-4,C1-2,TP1-11,JP1-2,H1-4,U1,D1",
     "variants": []
   },
   "sheets": [
     [
       "516af16e-4df2-44b9-98db-abada191c38c",
-      "RC-PT1"
+      "Active-PT1-DT1"
     ]
   ],
   "text_variables": {},
