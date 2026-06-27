@@ -141,12 +141,6 @@
 		(path "/4dd9f4cc-dfe2-410d-ba47-0507ca5e2fcc")
 		(sheetname "/")
 		(sheetfile "RC-PT1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -195,7 +189,7 @@
 			(uuid "a3f24880-f59c-47aa-ad7f-8af1caded448")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-RED.wrl"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-RED.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -261,12 +255,6 @@
 		(path "/4bab8428-35ac-4984-b803-a19fc9dd96a5")
 		(sheetname "/")
 		(sheetfile "RC-PT1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -315,7 +303,7 @@
 			(uuid "621c4b02-5e65-47ca-b018-2d05ce4fb932")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
 			(offset
 				(xyz -7.5 0 0)
 			)
@@ -378,16 +366,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7b474774-0e9a-4bbd-9991-0329224845f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/39d7d8b0-91c1-4387-bfd7-874edc62a83f")
 		(sheetname "/")
 		(sheetfile "RC-PT1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -431,232 +425,6 @@
 			(uuid "253d8643-7c8e-4a04-97c5-b905eec6a662")
 		)
 		(embedded_fonts no)
-	)
-	(footprint "Library:KEYS4952"
-		(layer "F.Cu")
-		(uuid "2f498815-1ecc-4b79-a666-a8ac6f8343ff")
-		(at 176.5 88.535362)
-		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
-		(tags "test point THT pad")
-		(property "Reference" "TP6"
-			(at 0 -2.398 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "587ce0e7-b43d-4ce9-8619-c9b6b147bf9a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 0 2.55 0)
-			(layer "F.Fab")
-			(uuid "bcde2639-96db-4880-8bc2-6577721f1f0f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b5df236c-d79f-4592-ae1d-78f12990b186")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d642e045-4fb7-4e7e-82c6-5865eb577a15")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/eb2157ba-7ef2-40fd-9003-6572241233e5")
-		(sheetname "/")
-		(sheetfile "RC-PT1.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 2 0)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "b3055a0a-6ff2-446d-ac02-69f19dd3ac97")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a962c1c1-4c21-45ef-90d3-d24a7987b06c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.4 0)
-			(layer "F.Fab")
-			(uuid "58e7ce55-975e-4029-93d5-ff5763419f4e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(C1-Pad1)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "a2b3b87d-939a-48c5-bc1e-a8be39af8dc3")
-		)
-		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/KEYS4952.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-	)
-	(footprint "Library:KEYS4952"
-		(layer "F.Cu")
-		(uuid "39c06c78-402b-4fd4-9805-432b5e0609c4")
-		(at 162.5 123)
-		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
-		(tags "test point THT pad")
-		(property "Reference" "TP8"
-			(at 0 -2.398 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e76aa510-5ef8-4858-a3c0-c5705e0c70a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 0 2.55 0)
-			(layer "F.Fab")
-			(uuid "e335cf20-4878-4001-a4c6-7a82818534ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0700687b-6112-47d7-b26d-0a087c10b33e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a80fe7ed-ad65-42fb-8bc7-b3adc0cef734")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/70468e34-b97f-42f0-bd4e-64ca045ff6c8")
-		(sheetname "/")
-		(sheetfile "RC-PT1.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 2 0)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "c82a8d70-c981-4be2-a10b-dc32c9f5e343")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "aa83a1fb-7fb6-4ef7-a965-e4eb27ad62b5")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.4 0)
-			(layer "F.Fab")
-			(uuid "6e1ca100-bdfb-466c-b3ca-b2f049af7402")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(C1-Pad2)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "b6faa05a-d36b-4093-9db6-d07fd0d80a42")
-		)
-		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/KEYS4952.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
@@ -709,16 +477,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7ecfbbf1-70a3-4cf0-be44-4d4fb1e2d98b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/187d1578-cbee-4014-830b-75a4dda176e8")
 		(sheetname "/")
 		(sheetfile "RC-PT1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -889,16 +663,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b070669-6e66-4dfb-9ec3-d1b9c4eccc4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/12755942-ed98-48f1-96f9-01ae5513ed78")
 		(sheetname "/")
 		(sheetfile "RC-PT1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -997,12 +777,6 @@
 		(path "/95947280-0615-42b7-bee6-6ab111821a99")
 		(sheetname "/")
 		(sheetfile "RC-PT1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1051,7 +825,7 @@
 			(uuid "26071001-6f77-4c06-872b-e147d996477f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-RED.wrl"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-RED.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1060,119 +834,6 @@
 			)
 			(rotate
 				(xyz -0 -0 -180)
-			)
-		)
-	)
-	(footprint "Library:KEYS4952"
-		(layer "F.Cu")
-		(uuid "7ffda3d7-dafe-4b5f-b0e2-3ebfb97913dc")
-		(at 115.493012 88.535362)
-		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
-		(tags "test point THT pad")
-		(property "Reference" "TP5"
-			(at 0 -2.398 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5544d756-feab-46ab-b747-cc314c76e802")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 0 2.55 0)
-			(layer "F.Fab")
-			(uuid "ce2ad775-1cff-4e47-be85-a2c76ee7c5f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14cd9349-1f9b-40d3-b865-5197dfb62716")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d2cb5eb-0bc7-4a88-b9f3-0743c15afb9c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/d60febeb-1d17-4593-8e5d-e2cc84bbda02")
-		(sheetname "/")
-		(sheetfile "RC-PT1.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 2 0)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "93d6b9be-ecfb-458b-b413-f51815f315a6")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "42d872f0-e69c-4eca-a5dd-a79af84acaa1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.4 0)
-			(layer "F.Fab")
-			(uuid "b83b506a-8426-4011-9b2f-c2b9eb1ab7f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(R1-Pad1)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "eef4e1a6-aeff-4e66-b6cd-acaccb385990")
-		)
-		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/KEYS4952.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -1227,16 +888,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ae77979a-0ac4-49ff-af7f-9fff05836ddf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/744b7d49-3a4f-46e2-bd93-d63fc2780397")
 		(sheetname "/")
 		(sheetfile "RC-PT1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1335,12 +1002,6 @@
 		(path "/3a11cbab-4575-446c-bcc9-8dedd974a0b5")
 		(sheetname "/")
 		(sheetfile "RC-PT1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1389,7 +1050,7 @@
 			(uuid "09340d7d-5ef3-4195-8579-0e97282753ab")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
 			(offset
 				(xyz -7.5 0 0)
 			)
@@ -1452,16 +1113,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cfcefeb6-164b-413f-ad34-52bb5a271178")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/c6424f95-f716-47d0-90a1-7ea331a4fad1")
 		(sheetname "/")
 		(sheetfile "RC-PT1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -2745,119 +2412,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:KEYS4952"
-		(layer "F.Cu")
-		(uuid "e427c10d-4057-4a52-a1af-420fe1f74d2b")
-		(at 129.5 123)
-		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
-		(tags "test point THT pad")
-		(property "Reference" "TP7"
-			(at 0 -2.398 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "68785be9-7512-4fb3-b497-41e114c578e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 0 2.55 0)
-			(layer "F.Fab")
-			(uuid "69d37a21-a69b-4489-93ba-c9f347971123")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fffdb1e3-25d5-46dc-b858-b75bcde0a4e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a93ee816-0c1b-4103-a32d-94b277086e67")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/77f6ec4b-dec3-41f5-a1c1-1bd40745662f")
-		(sheetname "/")
-		(sheetfile "RC-PT1.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 2 0)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "a75d6839-7498-41ee-a2fb-2b5b6d7fe336")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a702769e-1720-4224-ab15-ebbca2efe6ea")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.4 0)
-			(layer "F.Fab")
-			(uuid "1ad9e32f-e777-4c18-b62a-671158c07bff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(C1-Pad2)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "8aa9b2cd-572e-46d3-a2a9-28dea1beb645")
-		)
-		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/KEYS4952.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-	)
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W5.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "ec276afb-2da3-44f7-8f38-41e1bb84726f")
@@ -2909,16 +2463,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2e32f76f-919d-4576-b8e0-7409ec32a4fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d297be3a-76ed-4218-8f09-ab7446474964")
 		(sheetname "/")
 		(sheetfile "RC-PT1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3015,7 +2575,7 @@
 			(uuid "233d1db5-2b81-4ebd-b98b-8b15414cce08")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/Capacitor_7.2x5mm.step"
+		(model "${KIPRJMOD}/3Dmodels/Capacitor_7.2x5mm.step"
 			(offset
 				(xyz 2.5 0 0)
 			)
@@ -3023,7 +2583,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 90)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -3233,48 +2793,6 @@
 		(layer "F.SilkS")
 		(uuid "460e6df0-13a3-4c9c-96c6-e7e01e2ec19c")
 	)
-	(gr_circle
-		(center 115.5 82.5)
-		(end 116 82.5)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "773b92e6-09e0-45c3-995c-6a603e32ed83")
-	)
-	(gr_line
-		(start 115.5 86.5)
-		(end 115.5 82.5)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "88d5da20-d4f0-40cf-91b2-13980e62197c")
-	)
-	(gr_line
-		(start 129.5 125)
-		(end 129.5 129)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bc066dfb-316c-442a-8d1b-49dced76e2e3")
-	)
-	(gr_circle
-		(center 129.5 129)
-		(end 130 129)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "a8574da9-ebb6-483d-9ca9-bce613294e5d")
-	)
 	(gr_line
 		(start 131 82.5)
 		(end 103.786134 82.5)
@@ -3336,48 +2854,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "fe070f93-6094-450a-aa5a-6edc37fff27b")
-	)
-	(gr_line
-		(start 162.5 125)
-		(end 162.5 129)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f855dd5e-3512-4fa7-bd34-4be89ee06df1")
-	)
-	(gr_circle
-		(center 162.5 129)
-		(end 163 129)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "245421c9-3ced-4c12-8997-a54d373af332")
-	)
-	(gr_circle
-		(center 176.5 82.5)
-		(end 177 82.5)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "f63952cb-fcaf-4462-b223-c05c5ce9b6cf")
-	)
-	(gr_line
-		(start 176.5 86.5)
-		(end 176.5 82.5)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7a1272c5-3be6-4ab1-b1a7-262d19cbe973")
 	)
 	(gr_line
 		(start 188 129)
@@ -3585,14 +3061,6 @@
 		(uuid "4ffb5ac4-04e1-4c43-8bd2-5ee52cdfe133")
 	)
 	(segment
-		(start 176.5 88.535362)
-		(end 176.5 82.5)
-		(width 1)
-		(layer "B.Cu")
-		(net "Net-(C1-Pad1)")
-		(uuid "564486e2-838f-4e17-9bcf-ef5e04d0f5d3")
-	)
-	(segment
 		(start 192.15 72)
 		(end 176.85 72)
 		(width 3)
@@ -3665,14 +3133,6 @@
 		(uuid "5dd5a14e-7bc5-4a89-b356-7c5ef5349a08")
 	)
 	(segment
-		(start 129.5 123)
-		(end 129.5 129)
-		(width 1)
-		(layer "B.Cu")
-		(net "Net-(C1-Pad2)")
-		(uuid "62ecf0ff-25ad-48fe-8f48-2351ca53a719")
-	)
-	(segment
 		(start 129.5 129)
 		(end 126.25 129)
 		(width 1)
@@ -3687,14 +3147,6 @@
 		(layer "B.Cu")
 		(net "Net-(C1-Pad2)")
 		(uuid "98ec0f14-0f59-4730-a57c-cb7fdec02875")
-	)
-	(segment
-		(start 162.5 123)
-		(end 162.5 129)
-		(width 1)
-		(layer "B.Cu")
-		(net "Net-(C1-Pad2)")
-		(uuid "9e6371cf-8bc2-4dc5-aa90-6ac9faaec3de")
 	)
 	(segment
 		(start 165.85 129)
@@ -3719,14 +3171,6 @@
 		(layer "B.Cu")
 		(net "Net-(C1-Pad2)")
 		(uuid "e43e411f-8587-45a9-aba8-44a38a5c33a7")
-	)
-	(segment
-		(start 115.493012 88.535362)
-		(end 115.493012 82.5)
-		(width 1)
-		(layer "B.Cu")
-		(net "Net-(R1-Pad1)")
-		(uuid "026398c2-2641-4ce4-98ee-40c086f2c722")
 	)
 	(segment
 		(start 132.42 82.5)

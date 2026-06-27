@@ -2681,7 +2681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:DELTRON 4mm banana socket - black"
+		(property "Footprint" "Library:DELTRON 4mm banana socket - yellow"
 			(at 107.95 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2889,7 +2889,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3df214bf-58de-4f1c-8097-c544124c3f00")
 		(property "Reference" "R6"
 			(at 167.64 88.9 90)
@@ -3184,28 +3184,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "7a46079d-d80a-4199-944b-fcf0517be94c")
+			(uuid "7a46079d-d80a-4199-944b-fcf0517be94d")
 		)
 		(pin "8"
-			(uuid "b08a9fec-b74b-40bb-ac99-b2ab2a2850ad")
+			(uuid "b08a9fec-b74b-40bb-ac99-b2ab2a2850ae")
 		)
 		(pin "1"
-			(uuid "1742305e-0821-47d4-88b5-ebb6cd4f3e78")
+			(uuid "1742305e-0821-47d4-88b5-ebb6cd4f3e79")
 		)
 		(pin "6"
-			(uuid "dc5c10f9-fcb5-43c3-a360-de82de365389")
+			(uuid "dc5c10f9-fcb5-43c3-a360-de82de36538a")
 		)
 		(pin "7"
-			(uuid "e79d9a89-195e-4e90-8f70-65440c799c78")
+			(uuid "e79d9a89-195e-4e90-8f70-65440c799c79")
 		)
 		(pin "4"
-			(uuid "4ec7a49f-1bd4-4a55-bdfb-7a522a7ff418")
+			(uuid "4ec7a49f-1bd4-4a55-bdfb-7a522a7ff419")
 		)
 		(pin "5"
-			(uuid "058946d4-f8e5-4e12-bdbf-642ad68612f9")
+			(uuid "058946d4-f8e5-4e12-bdbf-642ad68612fa")
 		)
 		(pin "2"
-			(uuid "917e6542-9372-446c-b21b-c7dab221be1e")
+			(uuid "917e6542-9372-446c-b21b-c7dab221be1f")
 		)
 		(instances
 			(project "Active-PT1-DT1"
@@ -3283,28 +3283,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "7a46079d-d80a-4199-944b-fcf0517be94c")
+			(uuid "7a46079d-d80a-4199-944b-fcf0517be94e")
 		)
 		(pin "8"
-			(uuid "b08a9fec-b74b-40bb-ac99-b2ab2a2850ad")
+			(uuid "b08a9fec-b74b-40bb-ac99-b2ab2a2850af")
 		)
 		(pin "1"
-			(uuid "1742305e-0821-47d4-88b5-ebb6cd4f3e78")
+			(uuid "1742305e-0821-47d4-88b5-ebb6cd4f3e7a")
 		)
 		(pin "6"
-			(uuid "dc5c10f9-fcb5-43c3-a360-de82de365389")
+			(uuid "dc5c10f9-fcb5-43c3-a360-de82de36538b")
 		)
 		(pin "7"
-			(uuid "e79d9a89-195e-4e90-8f70-65440c799c78")
+			(uuid "e79d9a89-195e-4e90-8f70-65440c799c7a")
 		)
 		(pin "4"
-			(uuid "4ec7a49f-1bd4-4a55-bdfb-7a522a7ff418")
+			(uuid "4ec7a49f-1bd4-4a55-bdfb-7a522a7ff41a")
 		)
 		(pin "5"
-			(uuid "058946d4-f8e5-4e12-bdbf-642ad68612f9")
+			(uuid "058946d4-f8e5-4e12-bdbf-642ad68612fb")
 		)
 		(pin "2"
-			(uuid "917e6542-9372-446c-b21b-c7dab221be1e")
+			(uuid "917e6542-9372-446c-b21b-c7dab221be20")
 		)
 		(instances
 			(project "Active-PT1-DT1"
@@ -3719,7 +3719,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c6b61d4-850e-4052-97db-3d12abf1c639")
 		(property "Reference" "JP1"
-			(at 106.68 57.15 0)
+			(at 106.68 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3730,6 +3730,7 @@
 		)
 		(property "Value" "Jumper_3_Open"
 			(at 106.68 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3738,7 +3739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Library:Jumper_1x03"
 			(at 106.68 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3845,7 +3846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:DELTRON 4mm banana socket - black"
+		(property "Footprint" "Library:DELTRON 4mm banana socket - blue"
 			(at 97.79 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4300,7 +4301,7 @@
 		(fields_autoplaced yes)
 		(uuid "d37f94cd-8519-424f-9873-a5169ac6340c")
 		(property "Reference" "JP2"
-			(at 130.81 50.8 0)
+			(at 130.81 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4311,6 +4312,7 @@
 		)
 		(property "Value" "Jumper_3_Open"
 			(at 130.81 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4319,7 +4321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Library:Jumper_1x03"
 			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)

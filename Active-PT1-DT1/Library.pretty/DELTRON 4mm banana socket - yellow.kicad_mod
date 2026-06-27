@@ -1,0 +1,105 @@
+(footprint "DELTRON 4mm banana socket - yellow"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e20d9c89-8326-453a-a0d1-85137f47c09b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DELTRON 4mm banana socket - yellow"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f3b02af-b919-49d5-a383-e4830e2afbaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d8aae62-da5e-489f-993d-13fddda3308f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c602e082-4523-4ef5-9f5b-e444c453ab69")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -11 -5.5)
+		(end 12 6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "731a7f3c-1571-4eba-933d-c70a729b8748")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4c2eeaaf-5981-417b-8234-467fd7f41dd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.65 0)
+		(size 5 5)
+		(drill 1.94)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "728c9e75-9f6e-4823-ac39-cff5bc60f0e0")
+	)
+	(pad "1" thru_hole circle
+		(at 7.65 0)
+		(size 5 5)
+		(drill 1.94)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1c4db23-417d-45d2-b05b-8d3253b3d38c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-YEL.step"
+		(offset
+			(xyz -7.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

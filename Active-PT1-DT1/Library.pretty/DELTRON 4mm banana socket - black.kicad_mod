@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "be458413-d48a-4901-ac93-b5c22b32a6c3")
+		(uuid "1f86fd65-11c8-4edf-8b57-3f710cae7dae")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ba3d5507-e391-4618-8289-4447f617d989")
+		(uuid "49c2e316-4bb6-47cb-bc26-dc08531fc167")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b1759c93-d899-43bc-8d5c-3feba0f2e449")
+		(uuid "5070fa01-b77f-4ec3-b5ae-00f4b49843ce")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "13368fe8-e6a4-43cc-a4a6-19c95d2cf809")
+		(uuid "7d8e051b-0f95-4d2f-9fe9-83ab22e9bb59")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,13 +60,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "bc827f07-f025-4716-9339-73e0c77cf95b")
+		(uuid "520273a1-6515-44e5-a9e7-9c30f8296a3d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "46ccc06a-f1d9-429c-b537-dda55d81441d")
+		(uuid "9ddd25a4-350a-449a-a909-fcaafe851d4e")
 		(effects
 			(font
 				(size 1 1)
@@ -80,7 +80,7 @@
 		(drill 1.94)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5145ff84-70bb-40d0-a9a9-1787eeebb84c")
+		(uuid "080b5494-8127-45a6-aa6b-195699c8497e")
 	)
 	(pad "1" thru_hole circle
 		(at 7.65 0)
@@ -88,10 +88,10 @@
 		(drill 1.94)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c160f279-33f3-4d3e-b715-3917177a8ff4")
+		(uuid "7a0c5ff8-ff98-49e4-9c35-bdfbe3c6214e")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
+	(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
 		(offset
 			(xyz -7.5 0 0)
 		)

@@ -90,12 +90,12 @@
 	(footprint "Library:DELTRON 4mm banana socket - red"
 		(layer "F.Cu")
 		(uuid "10fd9d9e-b831-4da3-919e-58aa927f872d")
-		(at 184.5 72 180)
+		(at 184.5 74 180)
 		(property "Reference" "TP3"
 			(at 0 -0.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4a5fbe42-98b0-4bb4-8ded-4a9ebf0b1102")
+			(uuid "ed765b73-387e-4a96-bd5d-4dea27b85379")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +107,7 @@
 			(at 0 1 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "23937f3a-7e74-41ac-ae8c-a141735fb50b")
+			(uuid "41e28b31-9442-4274-9b02-7511787a1879")
 			(effects
 				(font
 					(size 1 1)
@@ -119,7 +119,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dec94208-5e6f-4496-86a5-d1751063245e")
+			(uuid "2ada2d08-c1ea-4d7e-a12b-e7a586e8a2b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ccb6e513-0004-4e32-8a10-63c4175d226a")
+			(uuid "89c015e2-199b-452e-8235-08e87b996f6c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,7 +195,7 @@
 			(uuid "a3f24880-f59c-47aa-ad7f-8af1caded448")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-RED.wrl"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-RED.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -203,11 +203,11 @@
 				(xyz 0.4 0.4 0.4)
 			)
 			(rotate
-				(xyz 0 0 -180)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+	(footprint "Library:Jumper_1x03"
 		(layer "F.Cu")
 		(uuid "120a1be0-3eb2-433d-b23d-1ce2191214ce")
 		(at 138.13 114.4)
@@ -254,6 +254,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f5037986-3ae6-429f-9804-0d62547fcf8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -435,15 +447,15 @@
 			(uuid "5357b5d1-8df5-44a7-b74c-53f4a7266a70")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/3Dmodels/Jumper_1x3.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -2.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -497,6 +509,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c0ab56b5-0d5e-408b-931c-9921789f633f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3df214bf-58de-4f1c-8097-c544124c3f00")
 		(sheetname "/")
@@ -507,7 +531,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.04 0)
@@ -629,7 +653,7 @@
 	(footprint "Library:DELTRON 4mm banana socket - black"
 		(layer "F.Cu")
 		(uuid "164275a1-590d-4b19-b5fa-bd568127ee71")
-		(at 184.5 140 180)
+		(at 184.5 138 180)
 		(property "Reference" "TP4"
 			(at 0 -0.5 180)
 			(unlocked yes)
@@ -734,7 +758,7 @@
 			(uuid "621c4b02-5e65-47ca-b018-2d05ce4fb932")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
 			(offset
 				(xyz -7.5 0 0)
 			)
@@ -742,7 +766,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 90)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -793,6 +817,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "03f61bd3-3a4a-47bb-b149-40b2a23c5184")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1106,6 +1142,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "606c0b0e-27f7-4846-a64d-ade76a5bee4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/39d7d8b0-91c1-4387-bfd7-874edc62a83f")
 		(sheetname "/")
@@ -1207,6 +1255,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3173cd92-b948-4591-8f39-2d53adc94f0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1342,7 +1402,7 @@
 	(footprint "Library:DELTRON 4mm banana socket - black"
 		(layer "F.Cu")
 		(uuid "3cdd4b02-1ae8-4a98-b4ed-e7dcc460522f")
-		(at 146 67.85 -90)
+		(at 146.25 67.35 -90)
 		(property "Reference" "TP10"
 			(at 0 -0.5 270)
 			(unlocked yes)
@@ -1447,7 +1507,7 @@
 			(uuid "eef8f72c-33c3-4186-a978-23b0e47956ee")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
 			(offset
 				(xyz -7.5 0 0)
 			)
@@ -1459,10 +1519,10 @@
 			)
 		)
 	)
-	(footprint "Library:DELTRON 4mm banana socket - black"
+	(footprint "Library:DELTRON 4mm banana socket - yellow"
 		(layer "F.Cu")
 		(uuid "4c28d8c9-df6e-49fb-816e-373bac50206d")
-		(at 134 67.85 -90)
+		(at 165.5 67.35 -90)
 		(property "Reference" "TP9"
 			(at 0 -0.5 270)
 			(unlocked yes)
@@ -1488,7 +1548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "62552b4b-088e-4240-a685-5172c369fe49")
@@ -1499,7 +1559,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e455bce-84e6-40a0-96da-51d32abd3c9e")
@@ -1567,7 +1627,7 @@
 			(uuid "8fbedc11-0292-4bdb-9e1d-5debd353b95c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-YEL.step"
 			(offset
 				(xyz -7.5 0 0)
 			)
@@ -1582,7 +1642,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "65cc07f2-9fd4-498c-ac8e-69f75801674a")
-		(at 132.42 82.5)
+		(at 163.42 96)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
@@ -1627,6 +1687,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f539ddf5-fbbb-4c54-976a-7ca50d417637")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1809,6 +1881,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cea22ad9-4fd3-4c83-9ece-6f6c8d48e35b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/616c31d7-ff7c-49ca-9f75-632f86a9ff46")
 		(sheetname "/")
@@ -1938,7 +2022,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+	(footprint "Library:Jumper_1x03"
 		(layer "F.Cu")
 		(uuid "6b7b0a57-56ab-4a28-bc29-78b787be7e01")
 		(at 142.72 114.4)
@@ -1985,6 +2069,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "26a72532-b731-498f-8f67-461e45422665")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2166,15 +2262,15 @@
 			(uuid "0c456650-1e5a-414c-a5f6-ef0da4fa2b46")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/3Dmodels/Jumper_1x3.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -2.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -2226,6 +2322,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c6d0042a-ace6-49b0-b81e-96e8709af298")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2286,12 +2394,12 @@
 	(footprint "Library:DELTRON 4mm banana socket - red"
 		(layer "F.Cu")
 		(uuid "7947cf56-903c-4ef0-91ca-f7fdc3f69d71")
-		(at 107.5 71.5)
+		(at 107.5 73.5)
 		(property "Reference" "TP1"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b825242e-7700-4026-96e8-751296e0dc33")
+			(uuid "328f1103-ecdb-4186-b81e-c5b1ebd4366e")
 			(effects
 				(font
 					(size 1 1)
@@ -2303,7 +2411,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "f0aa48a8-2f88-4ea5-9f10-e8bb7c3b899c")
+			(uuid "00cffbef-722a-4444-8151-7496446ea475")
 			(effects
 				(font
 					(size 1 1)
@@ -2315,7 +2423,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e423d82-f721-4acb-9534-06bd146a8543")
+			(uuid "0aa2da31-6702-41dd-9aa2-611fed1fbe40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2434,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0dc33f81-de91-4f4c-ab32-1eeadd5a6516")
+			(uuid "1c600eff-7e0c-493c-a81d-6f2842fcff78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2499,7 @@
 			(uuid "26071001-6f77-4c06-872b-e147d996477f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-RED.wrl"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-RED.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2399,7 +2507,7 @@
 				(xyz 0.4 0.4 0.4)
 			)
 			(rotate
-				(xyz 0 0 -180)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -2450,6 +2558,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4373d5e0-e920-4d1c-98bc-c2f98a9cc062")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2622,6 +2742,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20640475-a208-4d84-9284-8d5e67e93cc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/744b7d49-3a4f-46e2-bd93-d63fc2780397")
 		(sheetname "/")
@@ -2723,6 +2855,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20a58e31-c929-48b1-946e-2bd5baf738ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2858,7 +3002,7 @@
 	(footprint "Library:DELTRON 4mm banana socket - black"
 		(layer "F.Cu")
 		(uuid "b5ec2b69-8846-4cd0-9621-595270d40b46")
-		(at 107.5 140)
+		(at 107.5 138)
 		(property "Reference" "TP2"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -2963,7 +3107,7 @@
 			(uuid "09340d7d-5ef3-4195-8579-0e97282753ab")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
 			(offset
 				(xyz -7.5 0 0)
 			)
@@ -2971,7 +3115,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 90)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -3023,6 +3167,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "79906e9d-d5f3-4488-9534-03d702509d32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4370,6 +4526,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "216bc940-3378-4ffb-8887-61ece33f4d5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d297be3a-76ed-4218-8f09-ab7446474964")
 		(sheetname "/")
@@ -4476,15 +4644,15 @@
 			(uuid "233d1db5-2b81-4ebd-b98b-8b15414cce08")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/Capacitor_7.2x5mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W5.0mm_P5.00mm.step"
 			(offset
-				(xyz 2.5 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 90)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -4535,6 +4703,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cc064fc3-2a9c-478e-b293-ea234e76581f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4667,15 +4847,15 @@
 			)
 		)
 	)
-	(footprint "Library:DELTRON 4mm banana socket - black"
+	(footprint "Library:DELTRON 4mm banana socket - blue"
 		(layer "F.Cu")
 		(uuid "fc43cd60-0db7-45d1-988d-71c57958af61")
-		(at 158 68 -90)
+		(at 127 67.35 -90)
 		(property "Reference" "TP11"
 			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "8fac9a9b-67d1-4f42-9353-e5b1e8356841")
+			(uuid "11145b1e-a2da-4d01-b53d-a95bcc5925bb")
 			(effects
 				(font
 					(size 1 1)
@@ -4687,7 +4867,7 @@
 			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6993ac6c-0e12-4ed5-bb79-46354be51b91")
+			(uuid "65a78058-afd4-4690-b919-7be80b8ff024")
 			(effects
 				(font
 					(size 1 1)
@@ -4696,10 +4876,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a15627e-e5f6-4676-8c52-41ecdc5a3dd9")
+			(uuid "273df768-5452-44b8-a48c-b919ab49f85e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,10 +4887,10 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9f2ac2a-c093-4783-a075-e4b4f148ec76")
+			(uuid "233abe20-47ac-469e-8c23-01a140d17412")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,7 +4955,7 @@
 			(uuid "453c33b9-58ca-4061-b449-bbd5d2f76486")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/jkordek/Documents/GitHub/Automatic-Control/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLK.STEP"
+		(model "${KIPRJMOD}/3Dmodels/AB2_90DEG_4MM_JACK_PTH-BLUE.step"
 			(offset
 				(xyz -7.5 0 0)
 			)
@@ -4971,6 +5151,270 @@
 		(layer "F.SilkS")
 		(uuid "2418dcfa-fd16-4166-b29e-fa8fe928d5c3")
 	)
+	(gr_rect
+		(start 142.5 138)
+		(end 143.5 139)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "52ecb755-458e-4171-83b4-d262c42402e3")
+	)
+	(gr_rect
+		(start 142.5 141.5)
+		(end 147 143.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8389233a-1fd4-4736-b482-dc0bb7773c36")
+	)
+	(gr_rect
+		(start 142.5 146)
+		(end 143.5 147)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "77a29211-5d3f-40da-b7c1-bd57378b5b16")
+	)
+	(gr_rect
+		(start 143 142)
+		(end 144 143)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9ebb5059-5d24-4b02-b183-1e59db359728")
+	)
+	(gr_rect
+		(start 144.5 137.5)
+		(end 149 139.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4030156b-f532-4451-87aa-cfaffe8ec9a3")
+	)
+	(gr_rect
+		(start 144.5 145.5)
+		(end 149 147.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6d7959b3-429f-4635-a5b8-e93336f521f0")
+	)
+	(gr_rect
+		(start 145 138)
+		(end 146 139)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "caccad83-0745-4820-9c3d-07cd6b8edc0a")
+	)
+	(gr_rect
+		(start 145 146)
+		(end 146 147)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e3031e21-e14b-4dd1-8941-5ac25159aa54")
+	)
+	(gr_rect
+		(start 145.5 142)
+		(end 146.5 143)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d7535f42-a875-48c5-87ea-1291f98a6fc5")
+	)
+	(gr_rect
+		(start 147.5 138)
+		(end 148.5 139)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "eb2539e9-e497-407d-9694-46e7d0367b1c")
+	)
+	(gr_rect
+		(start 147.5 146)
+		(end 148.5 147)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "221b374c-deae-4412-92d2-8b4fbfa72fe9")
+	)
+	(gr_rect
+		(start 148 142)
+		(end 149 143)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0b453979-b7c9-4042-8e41-36e0024a4852")
+	)
+	(gr_rect
+		(start 151 138)
+		(end 152 139)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8478bee7-970a-4c6d-bd32-4f18acc341a7")
+	)
+	(gr_rect
+		(start 151 141.5)
+		(end 155.5 143.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9803ce5e-0966-4e21-b2c3-8d8a7e67a8c4")
+	)
+	(gr_rect
+		(start 151 145.5)
+		(end 155.5 147.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0d14e03f-2030-48c1-b835-ae48d50a815e")
+	)
+	(gr_rect
+		(start 151.5 142)
+		(end 152.5 143)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "057790db-5e09-4ca7-91ac-7917e257cf27")
+	)
+	(gr_rect
+		(start 151.5 146)
+		(end 152.5 147)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bf46e9fe-832f-42f1-a3c7-1ac1580fe3ff")
+	)
+	(gr_rect
+		(start 153 137.5)
+		(end 157.5 139.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb636b39-799e-467a-9c46-d537da9b36e7")
+	)
+	(gr_rect
+		(start 153.5 138)
+		(end 154.5 139)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "89ed03ee-c6b2-47b2-8c60-63a14aa668e0")
+	)
+	(gr_rect
+		(start 154 142)
+		(end 155 143)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "caab6188-41a3-4014-bdbe-f7f9069f7ac9")
+	)
+	(gr_rect
+		(start 154 146)
+		(end 155 147)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4afdf9ef-2925-4c9d-88d0-cfd7217404c2")
+	)
+	(gr_rect
+		(start 156 138)
+		(end 157 139)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7ba5c89c-3f8f-47ea-a976-48e5daf315f6")
+	)
+	(gr_rect
+		(start 156.5 142)
+		(end 157.5 143)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8158d761-abfa-4a47-af58-b09edbdf8ee1")
+	)
+	(gr_rect
+		(start 156.5 146)
+		(end 157.5 147)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ce158084-330d-4e2d-8314-f7bf6ee2f958")
+	)
 	(gr_circle
 		(center 192 60)
 		(end 195 60)
@@ -5077,16 +5521,40 @@
 		(layer "Edge.Cuts")
 		(uuid "364f7038-bcb4-4484-99af-6720c3eb5c2a")
 	)
-	(gr_text "PT1/DT1/P"
-		(at 146 153.893377 0)
+	(gr_text "-15V"
+		(at 120.6 85.5 0)
 		(layer "F.SilkS")
-		(uuid "58288327-60fb-48dd-9ec9-4c4a5ddedbfc")
+		(uuid "d3cf6101-1824-4c04-8d55-4cbbc45c6e42")
 		(effects
 			(font
-				(size 2.5 2.5)
+				(size 3 3)
 				(thickness 0.4)
 			)
-			(justify bottom)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 141.278572 85.5 0)
+		(layer "F.SilkS")
+		(uuid "94930caf-0699-467d-a497-46909bf814a2")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.4)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+15V"
+		(at 159.1 85.5 0)
+		(layer "F.SilkS")
+		(uuid "c2e51f99-af8f-4795-8297-edd197208812")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.4)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "JLCJLCJLCJLC"
@@ -5100,6 +5568,193 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(table
+		(column_count 3)
+		(uuid "c16b2c2f-0716-4a32-b501-e64fcbc50c11")
+		(layer "F.SilkS")
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+		)
+		(column_widths 8 8.5 8.5)
+		(row_heights 4.5 4 4 4)
+		(cells
+			(table_cell ""
+				(start 133.5 132)
+				(end 141.5 136.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "c046f0fb-a8c7-45a6-ade8-a679b1a21757")
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(table_cell "JP1"
+				(start 141.5 132)
+				(end 150 136.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "85262f0b-156c-439c-846c-6c35df48cc1b")
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(table_cell "JP2"
+				(start 150 132)
+				(end 158.5 136.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "3e4e2878-cdc6-4656-bac0-10c8ec59e2f6")
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(table_cell "PT1"
+				(start 133.5 136.5)
+				(end 141.5 140.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "ff0f72cb-867c-4d75-b582-aed80cb56c0a")
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(table_cell ""
+				(start 141.5 136.5)
+				(end 150 140.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "33dda4a3-a944-41f9-9a14-d09e4cc0047a")
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 150 136.5)
+				(end 158.5 140.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "49628326-5d8e-4ee6-884c-92799ddb7a75")
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "DT1"
+				(start 133.5 140.5)
+				(end 141.5 144.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "9cfa8589-3047-46de-9eb7-ff312fe00c94")
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(table_cell ""
+				(start 141.5 140.5)
+				(end 150 144.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "70a0ea52-4b86-4da7-a68c-de9f38f8dd63")
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 150 140.5)
+				(end 158.5 144.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "37e7ee17-acf6-47b9-830f-2cd05cd3681a")
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "P"
+				(start 133.5 144.5)
+				(end 141.5 148.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "c707ba4c-33e5-41b8-a768-a234898bb7c5")
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(table_cell ""
+				(start 141.5 144.5)
+				(end 150 148.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "a898f877-33b4-4690-b18c-fd36fac8def3")
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 150 144.5)
+				(end 158.5 148.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.SilkS")
+				(uuid "6cc6ecb8-404b-4a80-bc57-8a402f8d0515")
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
 		)
 	)
 	(embedded_fonts no)
