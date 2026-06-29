@@ -1,0 +1,12 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C2,C_Rect_L7.2mm_W2.5mm_P5.00mm,1,10nF,
+"C3, C4",C_Rect_L7.2mm_W2.5mm_P5.00mm,2,0.1uF,
+"D1, D2",D_DO-41_SOD81_P10.16mm_Horizontal,2,1N4007,
+"F1, F2",C_Disc_D7.5mm_W4.4mm_P5.00mm,2,100mA,
+"R1, R2, R3, R4, R5",R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,5,100k,
+R6,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,47k,
+"TP1, TP3, TP5",DELTRON 4mm banana socket - red,3,TestPoint,
+"TP10, TP2, TP4",DELTRON 4mm banana socket - black,3,TestPoint,
+TP11,DELTRON 4mm banana socket - blue,1,TestPoint,
+TP9,DELTRON 4mm banana socket - yellow,1,TestPoint,
+U1,DIP-8_W7.62mm_LongPads,1,TL072,
