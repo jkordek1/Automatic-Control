@@ -522,8 +522,123 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text "PT1"
+	(text "RC krug"
 		(exclude_from_sim no)
 		(at 137.16 67.31 0)
 		(effects
@@ -534,6 +649,12 @@
 			)
 		)
 		(uuid "404a617e-7944-4753-8bda-e2e0159e2212")
+	)
+	(junction
+		(at 116.84 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d58b8c0-52a0-4f78-b35b-9ca469872d79")
 	)
 	(junction
 		(at 137.16 77.47)
@@ -549,7 +670,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 137.16 96.52)
+			(xy 113.03 96.52) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
@@ -566,6 +687,16 @@
 			(type default)
 		)
 		(uuid "6c999d7d-cb5d-4f6b-a8c0-8d6e4a5fa8b0")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98313114-9582-49e2-b06a-436be59c46d8")
 	)
 	(wire
 		(pts
@@ -606,6 +737,16 @@
 			(type default)
 		)
 		(uuid "d99ae86d-7f46-47a2-9bfa-a65a0bc8abe2")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12413db-adb6-4273-81f7-aca9bec6b15a")
 	)
 	(wire
 		(pts
@@ -684,6 +825,17 @@
 				)
 			)
 		)
+		(property "TME" ""
+			(at 148.59 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RC-PT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
@@ -750,6 +902,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 123.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 123.19 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -841,6 +1004,17 @@
 				)
 			)
 		)
+		(property "TME" ""
+			(at 148.59 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RC-PT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
@@ -907,6 +1081,17 @@
 		)
 		(property "Description" "test point"
 			(at 113.03 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 113.03 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -995,6 +1180,17 @@
 				)
 			)
 		)
+		(property "TME" ""
+			(at 152.4 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4c64fe0-f9b1-48fb-a21f-9e626eff9c2a")
 		)
@@ -1065,6 +1261,17 @@
 		)
 		(property "Description" "test point"
 			(at 152.4 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 152.4 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1153,6 +1360,17 @@
 				)
 			)
 		)
+		(property "TME" ""
+			(at 148.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RC-PT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
@@ -1228,6 +1446,17 @@
 				)
 			)
 		)
+		(property "TME" ""
+			(at 113.03 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89eb33c6-d0aa-41eb-9a26-3dfbc50f82ef")
 		)
@@ -1235,6 +1464,84 @@
 			(project "RC-PT1"
 				(path "/516af16e-4df2-44b9-98db-abada191c38c"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5f52c78-1e84-4a80-88b1-bddde1d78f6f")
+		(property "Reference" "#PWR01"
+			(at 116.84 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1907f637-4f93-4289-8103-400057c65b47")
+		)
+		(instances
+			(project "RC-PT1"
+				(path "/516af16e-4df2-44b9-98db-abada191c38c"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1297,6 +1604,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 148.59 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" ""
 			(at 148.59 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -1374,6 +1692,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "R82DC4100DQ60J"
 			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
