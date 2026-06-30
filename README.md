@@ -54,10 +54,10 @@ An operational amplifier based circuit providing three selectable transfer funct
 ## Jumper Configuration
 
 | Transfer Function | JP1 | JP2 |
-|-------------------|:---:|:---:|
-| **PT1** | 2–3 | 2–3 |
-| **DT1** | 1–2 | 1–2 |
-| **P** | 2–3 | 1–2 |
+|-------------------|-----|-----|
+| **PT1** | Pins **2–3** | Pins **2–3** |
+| **DT1** | Pins **1–2** | Pins **1–2** |
+| **P** | Pins **2–3** | Pins **1–2** |
 
 This board allows students to compare the behavior of different dynamic systems under identical experimental conditions.
 
