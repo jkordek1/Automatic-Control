@@ -69,6 +69,12 @@ An operational amplifier implementation of:
 - **Integrator (I)**
 - **Proportional–Integral (PI) controller**
 
+Jumper Configuration:
+| Transfer Function | JP1 |
+|-------------------|:---:|
+| **PI** | 1–2 |
+| **I** | 2–3 |
+
 The board is intended for experiments involving closed-loop control and controller tuning.
 
 ---
