@@ -51,8 +51,7 @@ An operational amplifier based circuit providing three selectable transfer funct
 - **PT1** – First-order lag element
 - **DT1** – Derivative element with first-order filtering
 
-## Jumper Configuration
-
+Jumper Configuration:
 | Transfer Function | JP1 | JP2 |
 |-------------------|-----|-----|
 | **PT1** | Pins **2–3** | Pins **2–3** |
