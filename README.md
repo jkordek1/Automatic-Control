@@ -41,6 +41,8 @@ A passive first-order RC circuit used to investigate:
 - Frequency response
 - First-order transfer functions
 
+![PCB 1](Images/PCB1.png)
+
 ---
 
 ### 2. P / PT1 / DT1 Board
