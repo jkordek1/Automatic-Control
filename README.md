@@ -62,6 +62,8 @@ Jumper Configuration:
 
 This board allows students to compare the behavior of different dynamic systems under identical experimental conditions.
 
+![PCB 2](Images/PCB2.png)
+
 ---
 
 ### 3. PI / I Controller
@@ -78,6 +80,8 @@ Jumper Configuration:
 | **I** | 2–3 |
 
 The board is intended for experiments involving closed-loop control and controller tuning.
+
+![PCB 3](Images/PCB3.png)
 
 ## Software
 
