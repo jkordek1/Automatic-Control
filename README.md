@@ -77,36 +77,6 @@ Jumper Configuration:
 
 The board is intended for experiments involving closed-loop control and controller tuning.
 
----
-
-## Repository Structure
-
-```
-.
-├── RC_Board/
-│   ├── KiCad/
-│   ├── Gerbers/
-│   ├── BOM/
-│   └── Documentation/
-│
-├── P_PT1_DT1/
-│   ├── KiCad/
-│   ├── Gerbers/
-│   ├── BOM/
-│   └── Documentation/
-│
-├── PI_I_Controller/
-│   ├── KiCad/
-│   ├── Gerbers/
-│   ├── BOM/
-│   └── Documentation/
-│
-├── Images/
-└── README.md
-```
-
----
-
 ## Software
 
 Designed using **KiCad**.
