@@ -7868,8 +7868,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "47k"
-		(at 163.767857 105.5 0)
+	(gr_text "100k"
+		(at 163.291667 105.5 0)
 		(layer "F.SilkS")
 		(uuid "b60b615f-b0f1-4c75-9192-c7f8c39b754f")
 		(effects
@@ -7892,8 +7892,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "100k"
-		(at 175.5 123.038333 90)
+	(gr_text "47k"
+		(at 175.5 122.562143 90)
 		(layer "F.SilkS")
 		(uuid "5ca099a5-986a-465b-922c-e2888e597e19")
 		(effects
